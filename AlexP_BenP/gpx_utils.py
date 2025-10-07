@@ -1,5 +1,5 @@
 def get_coords_from_gpx(gpx):
-    if gpx[1:6] == 'trkpt':
+    if gpx[1:6] == 'trkpt' and len(gpx) == 41 or len(gpx) == 42 or len(gpx) == 43:
         lat_index = gpx.index('lat')    #7
         lon_index = gpx.index('lon')    #24
 
