@@ -7,7 +7,8 @@ import dms_converter as dc
      ('075 45 03 w 91 23 05 n\n', None, None),
      ('-81 45 03 w 45 23 05 n\n', None, None),
      ('075 45 03 w 45 23 72 n\n', None, None),
-     ('075 45 03 z 45 23 72 n\n', None, None)
+     ('075 45 03 z 45 23 72 n\n', None, None),
+     ('075 45 03 z 45 23 72 4 n\n', None, None)
      ]
     )
 

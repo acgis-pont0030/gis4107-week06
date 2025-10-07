@@ -1,6 +1,10 @@
 def dms2dd (dmsinput):
-    
+
     dmsinput = dmsinput.strip().upper()
+
+    if len(dmsinput) != 22:
+        return None, None
+
     dmsparts = dmsinput.split()
     long_deg = int(dmsparts[0])
     long_min = int(dmsparts[1])
