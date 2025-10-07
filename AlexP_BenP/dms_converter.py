@@ -1,4 +1,5 @@
 def dms2dd (dmsinput):
+    
     dmsinput = dmsinput.strip().upper()
     dmsparts = dmsinput.split()
     long_deg = int(dmsparts[0])

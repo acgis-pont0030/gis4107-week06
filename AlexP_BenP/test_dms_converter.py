@@ -10,6 +10,7 @@ import dms_converter as dc
      ('075 45 03 z 45 23 72 n\n', None, None)
      ]
     )
+
 def test_dms_converter(dmsinput, expectedlong, expectedlat):
     assert dc.dms2dd(dmsinput) == (expectedlong, expectedlat)
     
