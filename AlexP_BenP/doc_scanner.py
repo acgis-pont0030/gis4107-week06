@@ -12,5 +12,3 @@ def get_x_code_position(in_text):
     else:
         return -1
 
-    
-   
